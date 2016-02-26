@@ -1,0 +1,16 @@
+{
+  "name": "slack-bot",
+  "version": "1.0.0",
+  "description": "Slack Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "JIBOT_ENV_TOKEN=$JIBOT_ENV_TOKEN nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jiyong Hong <jiyongh0204@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "slackbots": "^0.5.1",
+    "sqlite3": "^3.1.1"
+  }
+}
